@@ -1,9 +1,9 @@
 parameters:
   - name: APIM_INSTANCE_NAME
-    displayName: APIM instance name
+    displayName: apim-dev-270123
     type: string
   - name: RESOURCE_GROUP_NAME
-    displayName: APIM instance resource group name
+    displayName: apim-lab
     type: string
   - name: APIM_REPOSITORY_NAME
     type: string
