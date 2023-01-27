@@ -1,4 +1,10 @@
 trigger:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Free Trial(6e4914d5-03d8-4ff7-869b-3f25568387b8)'
+    subscriptionId: '6e4914d5-03d8-4ff7-869b-3f25568387b8'
+    action: 'DeleteRG'
   branches:
     include:
       - main
